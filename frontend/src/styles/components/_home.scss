@@ -1,0 +1,30 @@
+@import '../variables';
+@import '../mixins';
+
+.title-container{
+    @include flex-center;
+    flex-direction: column;
+}
+
+.title{
+    font-family: $font-body;
+    font-size: $font-size-xxl;
+    color: $color-white;
+    span {
+        display: inline-block;
+        transition: transform 0.25s cubic-bezier(0.25, 1.5, 0.5, 1), color 0.2s ease;
+        cursor: default;
+
+        &:hover {
+            transform: scale(1.4) rotate(30deg);
+            color: $color-accent;
+        }
+    }
+
+}
+
+.title-description{
+    font-family: $font-body;
+    font-size: $font-size-md;
+    color: $color-gray;
+}
