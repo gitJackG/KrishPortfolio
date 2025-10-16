@@ -1,0 +1,31 @@
+@import '../variables';
+@import '../mixins';
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: $color-gray-dark;
+  backdrop-filter: blur(10px);
+  z-index: $z-header;
+  height: 70px;
+  @include flex-center;
+  gap: 3rem;
+  
+    &:hover{
+      @include hover-navbar;
+    }
+}
+
+.nav-item{
+    font-size: 0.9rem;
+    color: $color-gray;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+      @include hover-item;
+    }
+}

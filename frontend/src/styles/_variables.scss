@@ -1,0 +1,60 @@
+$color-black: #0d0d0d;
+$color-white: #f9f9f9;
+$color-gray-dark: #1e1e1e;
+$color-gray: #3a3a3a;
+$color-gray-light: #c4c4c4;
+$color-accent: #e63946;
+$color-accent-alt: #457b9d;
+$color-muted: #6c757d;
+$bg-overlay-dark: rgba(0, 0, 0, 0.6);
+$bg-overlay-light: rgba(255, 255, 255, 0.2);
+
+$font-heading: 'Anton', sans-serif;
+$font-body: 'Work Sans', sans-serif;
+$font-mono: 'Inconsolata', monospace;
+
+$font-size-base: 16px;
+$font-size-sm: 0.875rem;
+$font-size-md: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 2rem;
+$font-size-xxl: 3rem;
+
+$line-height-base: 1.6;
+$line-height-heading: 1.2;
+
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 3rem;
+$spacing-xl: 5rem;
+
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 16px;
+
+$shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.15);
+$shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.25);
+$shadow-hard: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+$transition-fast: 0.2s ease;
+$transition-base: 0.4s ease;
+$transition-slow: 0.8s ease;
+
+$breakpoints: (
+  xs: 480px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1280px,
+  xl: 1600px,
+  xxl: 1920px
+);
+
+$z-header: 1000;
+$z-overlay: 2000;
+$z-modal: 3000;
+$z-tooltip: 4000;
+
+$opacity-faded: 0.6;
+$opacity-muted: 0.8;
+$opacity-visible: 1;

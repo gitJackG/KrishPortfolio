@@ -1,0 +1,23 @@
+@import 'variables';
+
+@mixin respond($size) {
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin hover-item {
+  transform: scale(1.2);
+  background-color: $color-gray-light;
+  font-weight: bold;
+}
+
+@mixin hover-navbar {
+    box-shadow: $shadow-medium;
+}
